@@ -1,0 +1,36 @@
+{
+  "name": "openeconomy-trade",
+  "version": "0.1.0",
+  "description": "Decentralized skill exchange protocol - fair trade between people",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "chain:local": "pnpm --filter contracts hardhat node",
+    "contracts:compile": "pnpm --filter contracts hardhat compile",
+    "contracts:test": "pnpm --filter contracts hardhat test",
+    "contracts:deploy:local": "pnpm --filter contracts hardhat run scripts/deploy.ts --network localhost",
+    "contracts:deploy:mumbai": "pnpm --filter contracts hardhat run scripts/deploy.ts --network mumbai",
+    "web:dev": "pnpm --filter web dev",
+    "web:build": "pnpm --filter web build"
+  },
+  "keywords": [
+    "blockchain",
+    "barter",
+    "exchange",
+    "time-bank",
+    "decentralized",
+    "community",
+    "fair-trade"
+  ],
+  "author": "OpenEconomy Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openeconomy/openeconomy-trade"
+  },
+  "bugs": {
+    "url": "https://github.com/openeconomy/openeconomy-trade/issues"
+  },
+  "homepage": "https://openeconomy.trade"
+}
