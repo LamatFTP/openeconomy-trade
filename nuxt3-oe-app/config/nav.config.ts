@@ -25,6 +25,21 @@ export const mainNav: NavItem[] = [
     icon: 'ph:lightbulb',
   },
   {
+    label: 'Participate',
+    to: '/participate',
+    icon: 'ph:users-three',
+  },
+  {
+    label: 'Contribute',
+    to: '/contribute',
+    icon: 'ph:hand-heart',
+  },
+  {
+    label: 'Community',
+    to: '/community',
+    icon: 'ph:chat-circle-dots',
+  },
+  {
     label: 'Discover',
     to: '/discover',
     icon: 'ph:compass',
@@ -86,19 +101,16 @@ export const dashboardNav: NavItem[] = [
 export const footerNav = {
   product: [
     { label: 'How It Works', to: '/how-it-works' },
-    { label: 'Features', to: '/features' },
-    { label: 'Pricing', to: '/pricing' },
+    { label: 'Participate', to: '/participate' },
     { label: 'FAQ', to: '/faq' },
   ],
   company: [
     { label: 'About', to: '/about' },
-    { label: 'Blog', to: '/blog' },
-    { label: 'Careers', to: '/careers' },
-    { label: 'Contact', to: '/contact' },
+    { label: 'Contribute', to: '/contribute' },
+    { label: 'Community', to: '/community' },
   ],
   resources: [
     { label: 'Documentation', href: 'https://docs.openeconomy.trade' },
-    { label: 'API Reference', href: 'https://api.openeconomy.trade' },
     { label: 'GitHub', href: 'https://github.com/openeconomy' },
     { label: 'Discord', href: '#' },
   ],

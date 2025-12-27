@@ -156,6 +156,8 @@ export interface ContentSection {
   items?: unknown[];
   content?: string;
   cta?: CTAButton;
+  rows?: ComparisonRow[];
+  stats?: StatItem[];
 }
 
 // CTA Section

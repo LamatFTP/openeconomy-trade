@@ -2,7 +2,7 @@
 /**
  * How It Works Page - Detailed explanation of the exchange process
  */
-import type { StepItem, TierItem, FAQItem } from '~/types/content'
+import type { TierItem, FAQItem } from '~/types/content'
 
 const { data, loading, error } = usePageContent('how-it-works')
 
@@ -101,7 +101,7 @@ function getSection(id: string) {
                                             {{ phase.description }}
                                         </p>
                                         <!-- Arrow connector -->
-                                        <div v-if="idx < step.phases.length - 1"
+                                        <div v-if="Number(idx) < step.phases.length - 1"
                                             class="hidden md:block absolute -right-3 top-1/2 -translate-y-1/2 text-surface-300">
                                             →
                                         </div>

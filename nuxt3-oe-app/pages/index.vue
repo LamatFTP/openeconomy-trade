@@ -3,7 +3,7 @@
  * Landing Page - OpenEconomy homepage
  * Showcases all modular components
  */
-import type { PageContent, PersonaItem, FeatureItem, StepItem, StatItem } from '~/types/content'
+import type { PersonaItem, FeatureItem, StepItem } from '~/types/content'
 
 // Fetch page content
 const { data, loading, error } = usePageContent('landing')

@@ -13,24 +13,24 @@
     "typecheck": "nuxt typecheck"
   },
   "dependencies": {
+    "@iconify/vue": "^5.0.0",
     "@pinia/nuxt": "^0.5.1",
     "@vueuse/core": "^10.7.0",
     "@vueuse/motion": "^2.0.0",
+    "autoprefixer": "^10.4.23",
     "firebase": "^10.7.0",
     "pinia": "^2.1.7",
+    "postcss": "^8.5.6",
     "vue": "^3.3.13",
     "vue-router": "^4.2.5",
     "zod": "^3.22.4"
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.0.6",
-    "@nuxtjs/tailwindcss": "^6.14.0",
+    "@nuxtjs/tailwindcss": "^6.10.0",
     "@types/node": "^20.10.6",
-    "autoprefixer": "^10.4.23",
     "nuxt": "^3.17.7",
-    "nuxt-icon": "^0.6.8",
-    "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.19",
+    "tailwindcss": "^3.4.1",
     "typescript": "^5.9.3",
     "vue-tsc": "^3.2.1"
   }

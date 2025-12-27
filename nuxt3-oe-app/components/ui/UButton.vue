@@ -5,7 +5,7 @@
  */
 
 interface Props {
-  variant?: 'primary' | 'secondary' | 'ghost' | 'danger' | 'link'
+  variant?: 'primary' | 'secondary' | 'ghost' | 'danger' | 'link' | 'outline'
   size?: 'xs' | 'sm' | 'md' | 'lg'
   loading?: boolean
   disabled?: boolean
@@ -33,6 +33,7 @@ const variantClasses = {
   secondary: 'btn-secondary',
   ghost: 'btn-ghost',
   danger: 'btn-danger',
+  outline: 'btn-outline',
   link: 'text-brand-500 hover:text-brand-600 underline-offset-4 hover:underline',
 }
 

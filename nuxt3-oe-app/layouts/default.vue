@@ -57,15 +57,13 @@ watch(
           </NuxtLink>
         </div>
 
-        <!-- Auth buttons -->
+        <!-- Coming Soon badge -->
         <div class="hidden items-center gap-3 md:flex">
-          <NuxtLink
-            to="/auth/login"
-            class="text-sm font-medium text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white"
+          <span
+            class="badge badge-brand px-3 py-1.5 text-xs font-medium"
           >
-            Sign In
-          </NuxtLink>
-          <UButton to="/auth/register" size="sm"> Get Started </UButton>
+            Coming Soon
+          </span>
         </div>
 
         <!-- Mobile menu button -->
@@ -104,12 +102,11 @@ watch(
             </NuxtLink>
           </div>
           <div
-            class="mt-4 flex flex-col gap-2 border-t border-slate-200 pt-4 dark:border-slate-800"
+            class="mt-4 flex items-center justify-center border-t border-slate-200 pt-4 dark:border-slate-800"
           >
-            <UButton to="/auth/login" variant="secondary" block>
-              Sign In
-            </UButton>
-            <UButton to="/auth/register" block> Get Started </UButton>
+            <span class="badge badge-brand px-4 py-2 text-sm font-medium">
+              Coming Soon
+            </span>
           </div>
         </div>
       </Transition>
