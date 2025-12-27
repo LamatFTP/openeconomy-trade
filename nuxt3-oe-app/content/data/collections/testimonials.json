@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ana-m",
+    "quote": "I traded Spanish lessons for help fixing my car. Neither of us had money, but we both got what we needed.",
+    "name": "Ana M.",
+    "role": "Language Teacher",
+    "location": "Austin, TX",
+    "avatar": null,
+    "exchanges": 15,
+    "rating": 4.9
+  },
+  {
+    "id": "robert-k",
+    "quote": "As a retiree, I felt useless. Now I mentor young engineers and get help with my garden. I feel valuable again.",
+    "name": "Robert K.",
+    "role": "Retired Engineer",
+    "location": "Portland, OR",
+    "avatar": null,
+    "exchanges": 32,
+    "rating": 4.8
+  },
+  {
+    "id": "priya-s",
+    "quote": "The traditional gig economy takes 20-30%. Here, 100% of the value goes to the people doing the work.",
+    "name": "Priya S.",
+    "role": "Graphic Designer",
+    "location": "Brooklyn, NY",
+    "avatar": null,
+    "exchanges": 28,
+    "rating": 5.0
+  },
+  {
+    "id": "yuki-t",
+    "quote": "As a new immigrant, I couldn't find work in my field. OpenEconomy let me use my skills while I rebuilt.",
+    "name": "Yuki T.",
+    "role": "Graphic Designer",
+    "location": "Vancouver, BC",
+    "avatar": null,
+    "exchanges": 28,
+    "rating": 4.9
+  }
+]

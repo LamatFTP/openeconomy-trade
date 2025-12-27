@@ -1,0 +1,11 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./nuxt3-oe-app"
+    },
+    {
+      "path": "./contracts"
+    }
+  ]
+}

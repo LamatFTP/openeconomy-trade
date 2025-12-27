@@ -1,0 +1,225 @@
+{
+  "slug": "how-it-works",
+  "meta": {
+    "title": "How It Works | OpenEconomy - Fair Skill Exchange",
+    "description": "Learn how OpenEconomy works: set your value, list skills, find matches, and exchange fairly. Four simple steps to trading skills without money."
+  },
+  "hero": {
+    "badge": "Simple Process",
+    "headline": "Four steps to fair exchange",
+    "subheadline": "OpenEconomy makes it easy to trade skills fairly. No money changes hands—just fair value for fair value.",
+    "primaryCta": { "label": "Get Started Free", "to": "/auth/register" },
+    "secondaryCta": { "label": "Browse Community", "to": "/discover" }
+  },
+  "sections": [
+    {
+      "id": "steps",
+      "type": "steps-detail",
+      "items": [
+        {
+          "number": "01",
+          "title": "Set Your Value",
+          "subtitle": "You decide what your time is worth",
+          "description": "Your 'hourly baseline' is the foundation of fair exchange. It's how we calculate equivalent value between different skills.",
+          "options": [
+            {
+              "icon": "ph:briefcase",
+              "title": "Based on your salary",
+              "description": "Take your annual salary, divide by 2,000. That's your starting point."
+            },
+            {
+              "icon": "ph:user",
+              "title": "Based on your rates",
+              "description": "What do you charge for your services? Use that as your baseline."
+            },
+            {
+              "icon": "ph:heart",
+              "title": "Based on your skills",
+              "description": "Consider what someone with your experience would earn."
+            }
+          ]
+        },
+        {
+          "number": "02",
+          "title": "List Your Skills",
+          "subtitle": "Share what you can offer—and what you need",
+          "description": "Every skill has value. From coding to cooking, gardening to guitar lessons.",
+          "categories": [
+            {
+              "icon": "ph:laptop",
+              "name": "Technology",
+              "examples": ["Web development", "IT support", "Data analysis"]
+            },
+            {
+              "icon": "ph:palette",
+              "name": "Creative",
+              "examples": ["Graphic design", "Writing", "Photography"]
+            },
+            {
+              "icon": "ph:wrench",
+              "name": "Manual & Trade",
+              "examples": ["Gardening", "Carpentry", "Plumbing"]
+            },
+            {
+              "icon": "ph:book",
+              "name": "Education",
+              "examples": ["Tutoring", "Language teaching", "Mentoring"]
+            },
+            {
+              "icon": "ph:heart",
+              "name": "Care & Wellness",
+              "examples": ["Childcare", "Pet sitting", "Fitness training"]
+            },
+            {
+              "icon": "ph:briefcase",
+              "name": "Professional",
+              "examples": ["Consulting", "Legal guidance", "Marketing"]
+            }
+          ]
+        },
+        {
+          "number": "03",
+          "title": "Find Matches",
+          "subtitle": "Connect with people who need what you offer",
+          "description": "Browse the community yourself, or let our matching algorithm suggest connections.",
+          "methods": [
+            {
+              "icon": "ph:magnifying-glass",
+              "title": "Browse the Community",
+              "description": "Filter by skill, location, or rate range."
+            },
+            {
+              "icon": "ph:sparkle",
+              "title": "Smart Matching",
+              "description": "Get notified when good matches appear."
+            }
+          ]
+        },
+        {
+          "number": "04",
+          "title": "Exchange Fairly",
+          "subtitle": "Propose, agree, complete, confirm",
+          "description": "Found a match? Here's how an exchange works from start to finish.",
+          "phases": [
+            {
+              "icon": "ph:paper-plane",
+              "title": "Propose",
+              "description": "Send a proposal with what you need and what you'll provide."
+            },
+            {
+              "icon": "ph:chat-circle",
+              "title": "Negotiate",
+              "description": "Agree on terms until both parties are satisfied."
+            },
+            {
+              "icon": "ph:check-circle",
+              "title": "Complete",
+              "description": "Do the work and mark it completed."
+            },
+            {
+              "icon": "ph:star",
+              "title": "Confirm & Rate",
+              "description": "Both parties confirm and rate the exchange."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trust",
+      "type": "tiers",
+      "header": {
+        "badge": "Building Trust",
+        "headline": "Reputation you earn, trust you keep",
+        "subheadline": "Your reputation is built through completed exchanges, not purchased or gamed."
+      },
+      "items": [
+        {
+          "icon": "🌱",
+          "name": "Newcomer",
+          "requirements": "Just joined",
+          "privileges": [
+            "Create profile",
+            "Browse participants",
+            "Propose exchanges (max 3)"
+          ]
+        },
+        {
+          "icon": "⚡",
+          "name": "Active",
+          "requirements": "1+ completed exchange",
+          "privileges": [
+            "Unlimited proposals (up to 10)",
+            "Leave reviews",
+            "Endorse others"
+          ]
+        },
+        {
+          "icon": "✓",
+          "name": "Trusted",
+          "requirements": "5+ exchanges, 4.0+ rating",
+          "privileges": [
+            "Create communities",
+            "Unlimited exchanges",
+            "Priority matching"
+          ]
+        },
+        {
+          "icon": "⭐",
+          "name": "Verified",
+          "requirements": "20+ exchanges, 4.5+ rating",
+          "privileges": [
+            "Community moderation",
+            "Dispute mediation",
+            "Featured in discovery"
+          ]
+        },
+        {
+          "icon": "👑",
+          "name": "Champion",
+          "requirements": "50+ exchanges, 4.8+ rating",
+          "privileges": [
+            "Governance voting",
+            "Ambassador role",
+            "Vouch for newcomers"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq-preview",
+      "type": "faq",
+      "header": { "headline": "Common Questions" },
+      "items": [
+        {
+          "question": "What if an exchange is unbalanced?",
+          "answer": "The system warns you if values differ by more than 10%. Small imbalances are recorded as credit/debit and even out over time."
+        },
+        {
+          "question": "What if someone doesn't complete their part?",
+          "answer": "First, try to work it out directly. If that fails, raise a dispute. A neutral mediator will help resolve it."
+        },
+        {
+          "question": "Can I change my hourly rate?",
+          "answer": "Yes, anytime. Changes apply to new exchanges only. Existing agreements keep their original terms."
+        },
+        {
+          "question": "Is this like bartering?",
+          "answer": "Similar concept, but smarter. OpenEconomy uses time-value normalization, so you can exchange with anyone and balance over time."
+        },
+        {
+          "question": "Do I need cryptocurrency?",
+          "answer": "No! The blockchain records exchanges for transparency, but you never need to buy or hold crypto."
+        }
+      ],
+      "cta": { "label": "See our complete FAQ", "to": "/faq" }
+    }
+  ],
+  "cta": {
+    "headline": "Ready to get started?",
+    "subheadline": "Create your profile in 5 minutes. Make your first exchange today.",
+    "primaryCta": { "label": "Create Free Account", "to": "/auth/register" },
+    "secondaryCta": { "label": "Browse Community First", "to": "/discover" },
+    "gradient": true
+  }
+}

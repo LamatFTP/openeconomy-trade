@@ -1,0 +1,179 @@
+{
+  "slug": "contribute",
+  "meta": {
+    "title": "Contribute | OpenEconomy - Help Build Fair Exchange",
+    "description": "Help build OpenEconomy. Whether you code, design, write, or want to grow the community—there's a place for you."
+  },
+  "hero": {
+    "badge": "Open Source",
+    "headline": "Build the future of fair exchange",
+    "subheadline": "OpenEconomy is 100% open source and community-driven. Every contribution makes a difference.",
+    "primaryCta": {
+      "label": "View on GitHub",
+      "to": "https://github.com/openeconomy/trade"
+    },
+    "secondaryCta": { "label": "Join Discord", "to": "/community" }
+  },
+  "sections": [
+    {
+      "id": "ways",
+      "type": "paths",
+      "header": {
+        "headline": "Ways to Contribute",
+        "subheadline": "You don't need to code to make a difference. Here's how you can help."
+      },
+      "items": [
+        {
+          "icon": "ph:code",
+          "title": "Code",
+          "subtitle": "Build features, fix bugs, improve performance",
+          "description": "Our stack: Nuxt 3, TypeScript, Tailwind, Firebase, Solidity. Check out the 'good first issue' labels on GitHub.",
+          "features": [
+            "Frontend & backend development",
+            "Smart contract work",
+            "DevOps & infrastructure"
+          ],
+          "cta": {
+            "label": "View Issues",
+            "to": "https://github.com/openeconomy/trade/issues"
+          }
+        },
+        {
+          "icon": "ph:figma-logo",
+          "title": "Design",
+          "subtitle": "Create interfaces, graphics, and experiences",
+          "description": "Help make OpenEconomy beautiful and accessible. We use Figma and always need UX input.",
+          "features": [
+            "UI/UX design",
+            "Illustrations & graphics",
+            "User research"
+          ],
+          "cta": {
+            "label": "View Figma",
+            "to": "https://figma.com/openeconomy"
+          }
+        },
+        {
+          "icon": "ph:pen",
+          "title": "Content",
+          "subtitle": "Write docs, guides, and marketing content",
+          "description": "Clear documentation helps everyone. Blog posts spread the word. Translations reach new communities.",
+          "features": [
+            "Documentation",
+            "Blog posts & articles",
+            "Translation & localization"
+          ],
+          "cta": {
+            "label": "Content Guidelines",
+            "to": "/docs/contributing/content"
+          }
+        },
+        {
+          "icon": "ph:users",
+          "title": "Community",
+          "subtitle": "Moderate, organize, and grow the community",
+          "description": "Help new participants get started. Moderate Discord. Organize local events.",
+          "features": [
+            "Discord moderation",
+            "Local community building",
+            "Event organization"
+          ],
+          "cta": {
+            "label": "Community Guide",
+            "to": "/docs/contributing/community"
+          }
+        },
+        {
+          "icon": "ph:bug",
+          "title": "Testing",
+          "subtitle": "Find bugs and suggest improvements",
+          "description": "Use the platform, report bugs, suggest improvements. Fresh eyes find fresh problems.",
+          "features": [
+            "Bug hunting",
+            "Usability testing",
+            "Feature suggestions"
+          ],
+          "cta": {
+            "label": "Report Bug",
+            "to": "https://github.com/openeconomy/trade/issues/new"
+          }
+        },
+        {
+          "icon": "ph:currency-dollar",
+          "title": "Financial",
+          "subtitle": "Keep the lights on",
+          "description": "OpenEconomy is non-profit. Donations cover servers, domains, and development tools.",
+          "features": [
+            "One-time donations",
+            "Recurring support",
+            "Sponsor development"
+          ],
+          "cta": { "label": "Donate", "to": "/donate" }
+        }
+      ]
+    },
+    {
+      "id": "tech-stack",
+      "type": "features",
+      "header": {
+        "badge": "Tech Stack",
+        "headline": "What We're Building With"
+      },
+      "items": [
+        {
+          "icon": "ph:browser",
+          "title": "Frontend",
+          "description": "Nuxt 3, Vue 3, TypeScript, Tailwind CSS, PWA"
+        },
+        {
+          "icon": "ph:database",
+          "title": "Backend",
+          "description": "Firebase, Cloud Functions, Firestore, Auth"
+        },
+        {
+          "icon": "ph:link",
+          "title": "Blockchain",
+          "description": "Polygon (+ Base planned), Solidity smart contracts"
+        },
+        {
+          "icon": "ph:git-branch",
+          "title": "Infrastructure",
+          "description": "GitHub Actions, Vercel, Docker"
+        }
+      ]
+    },
+    {
+      "id": "recognition",
+      "type": "recognition",
+      "header": { "headline": "How We Thank Contributors" },
+      "items": [
+        {
+          "title": "Public Attribution",
+          "description": "Listed on our contributors page with link to your profile"
+        },
+        {
+          "title": "OpenEconomy Credits",
+          "description": "Receive platform credits for your contributions"
+        },
+        {
+          "title": "NFT Badges",
+          "description": "Special contributor badges displayed on your profile"
+        },
+        {
+          "title": "Governance Rights",
+          "description": "Active contributors get voting rights on platform decisions"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "headline": "Ready to contribute?",
+    "subheadline": "Join our Discord to find where your skills fit best.",
+    "primaryCta": { "label": "Join Discord", "to": "/community" },
+    "secondaryCta": {
+      "label": "View GitHub",
+      "to": "https://github.com/openeconomy/trade"
+    },
+    "gradient": true
+  }
+}

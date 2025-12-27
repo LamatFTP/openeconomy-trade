@@ -1,0 +1,122 @@
+{
+  "slug": "about",
+  "meta": {
+    "title": "About | OpenEconomy - Built for People, Not Profit",
+    "description": "Learn about OpenEconomy's mission, principles, and team. We're building fair exchange infrastructure for everyone, with no profit motive and complete transparency."
+  },
+  "hero": {
+    "badge": "Our Story",
+    "headline": "Built for people, not profit",
+    "subheadline": "OpenEconomy exists because millions deserve access to fair exchange. Here's why we built it and what we believe."
+  },
+  "sections": [
+    {
+      "id": "mission",
+      "type": "mission",
+      "header": { "headline": "Why We Exist" },
+      "statement": "To create economic infrastructure where everyone can participate in fair exchange, regardless of access to traditional financial systems.",
+      "problem": {
+        "title": "The Problem We Saw",
+        "points": [
+          "Stay-at-home parents whose labor isn't valued",
+          "Artists and creatives between paid gigs",
+          "Retirees with decades of skills and no platform",
+          "Immigrants rebuilding in new countries",
+          "Students with time but no money",
+          "Anyone without access to banking"
+        ],
+        "conclusion": "Their skills have real value. The system just doesn't recognize it."
+      },
+      "solution": {
+        "title": "Our Answer",
+        "description": "OpenEconomy makes invisible value visible. Instead of money, we use time-value normalization: your skills exchanged at fair rates, person to person.",
+        "points": [
+          "No middleman taking a cut",
+          "No bank account required",
+          "No barriers to entry"
+        ]
+      }
+    },
+    {
+      "id": "principles",
+      "type": "features",
+      "header": { "headline": "What We Believe" },
+      "items": [
+        {
+          "icon": "ph:scales",
+          "title": "Fair by Design",
+          "description": "Every system choice prioritizes fairness. No features that advantage the wealthy or connected."
+        },
+        {
+          "icon": "ph:users",
+          "title": "Radically Inclusive",
+          "description": "If someone is excluded, we've failed. No bank accounts, resumes, or credentials required."
+        },
+        {
+          "icon": "ph:eye",
+          "title": "Transparent Always",
+          "description": "Open source code. Public finances. Visible reputation. No hidden algorithms."
+        },
+        {
+          "icon": "ph:chat-circle",
+          "title": "Community Governed",
+          "description": "The community decides the future. Not founders, not investors, not corporations."
+        },
+        {
+          "icon": "ph:lock",
+          "title": "Privacy Respected",
+          "description": "Share what you choose. Your data is yours. We don't sell, mine, or exploit information."
+        },
+        {
+          "icon": "ph:heart",
+          "title": "Non-Extractive",
+          "description": "No fees on exchanges. No platform take rate. 100% of value goes to participants."
+        }
+      ]
+    },
+    {
+      "id": "comparison",
+      "type": "comparison",
+      "header": { "headline": "Not Another Gig Platform" },
+      "rows": [
+        { "feature": "Platform fee", "them": "15-30%", "us": "0%" },
+        {
+          "feature": "Who sets prices",
+          "them": "Race to bottom",
+          "us": "You decide"
+        },
+        {
+          "feature": "Data ownership",
+          "them": "Platform owns",
+          "us": "You own"
+        },
+        { "feature": "Governance", "them": "Corporate", "us": "Community" },
+        { "feature": "Profit motive", "them": "Shareholder", "us": "None" },
+        { "feature": "Barrier to entry", "them": "Bank account", "us": "None" },
+        { "feature": "Source code", "them": "Proprietary", "us": "Open source" }
+      ]
+    },
+    {
+      "id": "team",
+      "type": "team",
+      "header": {
+        "headline": "Who's Building This",
+        "subheadline": "OpenEconomy doesn't have employees. We have contributors."
+      },
+      "stats": [
+        { "value": "25", "label": "Code Contributors", "suffix": "+" },
+        { "value": "10", "label": "Design Contributors", "suffix": "+" },
+        { "value": "50", "label": "Community Builders", "suffix": "+" },
+        { "value": "20", "label": "Countries Represented", "suffix": "+" }
+      ],
+      "cta": { "label": "See how you can contribute", "to": "/contribute" }
+    }
+  ],
+  "cta": {
+    "headline": "Join us in building",
+    "subheadline": "Whether you want to participate, contribute, or just follow along—we'd love to have you.",
+    "primaryCta": { "label": "Join Community", "to": "/community" },
+    "secondaryCta": { "label": "Contribute", "to": "/contribute" },
+    "gradient": true
+  }
+}

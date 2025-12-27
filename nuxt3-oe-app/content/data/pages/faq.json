@@ -1,0 +1,157 @@
+{
+  "slug": "faq",
+  "meta": {
+    "title": "FAQ | OpenEconomy - Common Questions Answered",
+    "description": "Find answers to common questions about OpenEconomy. Learn about signing up, setting your value, trust and safety, and how fair skill exchange works."
+  },
+  "hero": {
+    "badge": "Questions & Answers",
+    "headline": "Frequently Asked Questions",
+    "subheadline": "Everything you need to know about OpenEconomy. Can't find what you're looking for? Ask in our Discord."
+  },
+  "categories": [
+    "Getting Started",
+    "Value & Exchange",
+    "Trust & Safety",
+    "Technical",
+    "Community"
+  ],
+  "sections": [
+    {
+      "id": "faq-items",
+      "type": "faq",
+      "items": [
+        {
+          "question": "What is OpenEconomy?",
+          "answer": "OpenEconomy is a platform for fair skill exchange. Instead of paying money for services, you trade skills with others based on time-value equivalence. For example: 4 hours of gardening at $25/hr = 2.5 hours of cooking at $40/hr. Both equal $100 in value—fair exchange.",
+          "category": "Getting Started"
+        },
+        {
+          "question": "Is it free to use?",
+          "answer": "Yes, completely free. We don't charge fees, take a percentage of exchanges, or have premium tiers. OpenEconomy is non-profit and community-funded through donations.",
+          "category": "Getting Started"
+        },
+        {
+          "question": "How do I sign up?",
+          "answer": "Click 'Get Started' and create an account with your email or by connecting a crypto wallet. Then set your hourly value, add your skills, and you're ready to exchange. Takes about 5 minutes.",
+          "category": "Getting Started"
+        },
+        {
+          "question": "Do I need any special skills?",
+          "answer": "Everyone has valuable skills! Cooking, gardening, tutoring, pet sitting, handyman work, design, coding, language teaching, elder care—anything you can do that others need counts.",
+          "category": "Getting Started"
+        },
+        {
+          "question": "Is this available in my country?",
+          "answer": "OpenEconomy is global and available everywhere with internet access. However, most exchanges happen locally, so the experience depends on how many participants are in your area.",
+          "category": "Getting Started"
+        },
+        {
+          "question": "How do I decide my hourly value?",
+          "answer": "Your hourly value (baseline) is what you believe your time is worth. If you have a job, divide your annual salary by 2,000 hours. If not, consider what someone with your skills would reasonably earn. You can change it anytime.",
+          "category": "Value & Exchange"
+        },
+        {
+          "question": "What if someone's rate is much higher than mine?",
+          "answer": "That's fine! The math still works. If they charge $100/hr and you charge $25/hr, you'd provide 4 hours for every 1 hour they provide. Different time, same value, fair exchange.",
+          "category": "Value & Exchange"
+        },
+        {
+          "question": "What if an exchange isn't perfectly balanced?",
+          "answer": "Small imbalances are normal and tracked as credit/debit. If you receive $10 more value than you provided, you have -$10 credit. It evens out across multiple exchanges over time.",
+          "category": "Value & Exchange"
+        },
+        {
+          "question": "Can I exchange without giving something back immediately?",
+          "answer": "Yes! You can 'bank' credit by providing services now and receiving services later from anyone in the community. Your balance can be negative (you owe) or positive (community owes you).",
+          "category": "Value & Exchange"
+        },
+        {
+          "question": "How do I know people are trustworthy?",
+          "answer": "Every participant has a visible reputation: Trust tier, completion rate, average rating, reviews, and time on platform. Start with Trusted or higher participants if you're cautious.",
+          "category": "Trust & Safety"
+        },
+        {
+          "question": "What if someone doesn't complete their part?",
+          "answer": "1. Try to communicate and resolve directly. 2. If that fails, raise a dispute. 3. A neutral mediator reviews the case. 4. If unresolved, a council of Champions decides.",
+          "category": "Trust & Safety"
+        },
+        {
+          "question": "What if someone is inappropriate or harasses me?",
+          "answer": "Report them immediately through the platform or Discord moderators. We take harassment seriously. Offenders face warnings, suspension, or permanent removal depending on severity.",
+          "category": "Trust & Safety"
+        },
+        {
+          "question": "Is my personal information safe?",
+          "answer": "We collect minimal data and never sell it. You control what's visible on your profile. Exchanges are recorded on blockchain for transparency, but only wallet addresses—not personal details—are public.",
+          "category": "Trust & Safety"
+        },
+        {
+          "question": "Do I need cryptocurrency to use OpenEconomy?",
+          "answer": "No! You can sign up with just email. The blockchain runs in the background for transparency and trust, but you never need to buy, hold, or understand crypto.",
+          "category": "Technical"
+        },
+        {
+          "question": "What blockchain do you use?",
+          "answer": "We use Polygon (and plan to add Base) for recording exchanges. These are low-cost, environmentally-friendly blockchains. Users never pay gas fees—we cover all blockchain costs.",
+          "category": "Technical"
+        },
+        {
+          "question": "Is the code open source?",
+          "answer": "Yes, completely. Everything is on GitHub: github.com/openeconomy/trade. You can review, fork, or contribute to any part of the project.",
+          "category": "Technical"
+        },
+        {
+          "question": "Is there a mobile app?",
+          "answer": "Not yet. The website is mobile-responsive and works well on phones. Native iOS and Android apps are planned for a future phase.",
+          "category": "Technical"
+        },
+        {
+          "question": "How do I find people in my area?",
+          "answer": "Use the Discover page and filter by location. You can also join or create a local community to connect with nearby participants.",
+          "category": "Community"
+        },
+        {
+          "question": "Can I create a private group?",
+          "answer": "Yes! You can create communities with different visibility: Public (anyone can join), Approval (admin approves), or Invite-only. Requires Trusted tier to create communities.",
+          "category": "Community"
+        },
+        {
+          "question": "How can I help build OpenEconomy?",
+          "answer": "Many ways! Code (contribute on GitHub), Design (help with UI/UX), Community (moderate, translate, create content), or Financial (donate to keep us running). See our Contribute page.",
+          "category": "Community"
+        }
+      ]
+    }
+  ],
+  "support": {
+    "headline": "Can't find what you're looking for?",
+    "options": [
+      {
+        "icon": "ph:users",
+        "title": "Discord Community",
+        "description": "Ask fellow participants. Someone's probably had the same question.",
+        "link": { "label": "Join Discord", "to": "/community" }
+      },
+      {
+        "icon": "ph:book",
+        "title": "Documentation",
+        "description": "Detailed guides and technical documentation.",
+        "link": { "label": "View Docs", "to": "/docs" }
+      },
+      {
+        "icon": "ph:envelope",
+        "title": "Email Support",
+        "description": "Reach out directly if you need help.",
+        "link": { "label": "Contact Us", "to": "/contact" }
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Ready to get started?",
+    "subheadline": "Join the community and make your first exchange.",
+    "primaryCta": { "label": "Create Free Account", "to": "/auth/register" },
+    "secondaryCta": { "label": "Browse Community First", "to": "/discover" },
+    "gradient": true
+  }
+}

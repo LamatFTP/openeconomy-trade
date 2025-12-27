@@ -1,0 +1,137 @@
+{
+  "slug": "community",
+  "meta": {
+    "title": "Community | OpenEconomy - Join the Movement",
+    "description": "Join the OpenEconomy community. Connect with fellow participants, attend events, and help build the future of fair exchange."
+  },
+  "hero": {
+    "badge": "Join the Movement",
+    "headline": "A community built on fair exchange",
+    "subheadline": "OpenEconomy is more than a platform—it's a global community of people who believe in trading fairly. Find your people.",
+    "primaryCta": {
+      "label": "Join Discord",
+      "to": "https://discord.gg/openeconomy"
+    },
+    "secondaryCta": { "label": "Browse Community", "to": "/discover" }
+  },
+  "sections": [
+    {
+      "id": "stats",
+      "type": "stats",
+      "stats": [
+        { "value": "1,234", "label": "Community Members", "suffix": "+" },
+        { "value": "50", "label": "Local Chapters", "suffix": "+" },
+        { "value": "20", "label": "Countries", "suffix": "+" },
+        { "value": "567", "label": "Exchanges This Month", "suffix": "+" }
+      ]
+    },
+    {
+      "id": "channels",
+      "type": "features",
+      "header": { "headline": "Where to Connect" },
+      "items": [
+        {
+          "icon": "ph:discord-logo",
+          "title": "Discord",
+          "description": "Real-time chat, announcements, and community support. Most active place to connect."
+        },
+        {
+          "icon": "ph:twitter-logo",
+          "title": "Twitter",
+          "description": "Updates, announcements, and community highlights. Follow @OpenEconomy."
+        },
+        {
+          "icon": "ph:github-logo",
+          "title": "GitHub",
+          "description": "Discussions, feature requests, and development updates. Where building happens."
+        },
+        {
+          "icon": "ph:youtube-logo",
+          "title": "YouTube",
+          "description": "Tutorials, community calls, and success stories."
+        }
+      ]
+    },
+    {
+      "id": "events",
+      "type": "events",
+      "header": { "headline": "Upcoming Events" },
+      "items": [
+        {
+          "type": "Webinar",
+          "title": "Getting Started Workshop",
+          "date": "2025-01-15",
+          "time": "6:00 PM EST",
+          "location": "Zoom",
+          "description": "Learn how to set up your profile and make your first exchange."
+        },
+        {
+          "type": "Meetup",
+          "title": "Austin Community Meetup",
+          "date": "2025-01-20",
+          "time": "2:00 PM CST",
+          "location": "Austin, TX",
+          "description": "Meet local participants, share experiences, and grow the community."
+        },
+        {
+          "type": "Community Call",
+          "title": "Monthly Community Call",
+          "date": "2025-01-25",
+          "time": "5:00 PM EST",
+          "location": "Discord",
+          "description": "Updates, Q&A, and community discussion. Everyone welcome."
+        }
+      ]
+    },
+    {
+      "id": "testimonials",
+      "type": "testimonials",
+      "header": { "headline": "Community Voices" },
+      "items": [
+        {
+          "quote": "I traded Spanish lessons for help fixing my car. Neither of us had money, but we both got what we needed.",
+          "name": "Ana M.",
+          "role": "Language Teacher",
+          "location": "Austin, TX"
+        },
+        {
+          "quote": "As a retiree, I felt useless. Now I mentor young engineers and get help with my garden. I feel valuable again.",
+          "name": "Robert K.",
+          "role": "Retired Engineer",
+          "location": "Portland, OR"
+        },
+        {
+          "quote": "The traditional gig economy takes 20-30%. Here, 100% of the value goes to the people doing the work.",
+          "name": "Priya S.",
+          "role": "Graphic Designer",
+          "location": "Brooklyn, NY"
+        }
+      ]
+    },
+    {
+      "id": "chapters",
+      "type": "chapters",
+      "header": {
+        "headline": "Local Chapters",
+        "subheadline": "Find or start a community near you."
+      },
+      "featured": [
+        { "city": "Austin, TX", "members": 127, "exchanges": 342 },
+        { "city": "Portland, OR", "members": 98, "exchanges": 256 },
+        { "city": "Brooklyn, NY", "members": 156, "exchanges": 423 },
+        { "city": "Denver, CO", "members": 74, "exchanges": 189 }
+      ],
+      "cta": { "label": "Start a Chapter", "to": "/docs/community/chapters" }
+    }
+  ],
+  "cta": {
+    "headline": "Ready to join?",
+    "subheadline": "Become part of a growing movement for fair exchange.",
+    "primaryCta": {
+      "label": "Join Discord",
+      "to": "https://discord.gg/openeconomy"
+    },
+    "secondaryCta": { "label": "Create Account", "to": "/auth/register" },
+    "gradient": true
+  }
+}

@@ -4,15 +4,15 @@
   "description": "Decentralized skill exchange protocol - fair trade between people",
   "private": true,
   "scripts": {
-    "dev": "pnpm --filter web dev",
-    "build": "pnpm --filter web build",
-    "chain:local": "pnpm --filter contracts hardhat node",
-    "contracts:compile": "pnpm --filter contracts hardhat compile",
-    "contracts:test": "pnpm --filter contracts hardhat test",
-    "contracts:deploy:local": "pnpm --filter contracts hardhat run scripts/deploy.ts --network localhost",
-    "contracts:deploy:mumbai": "pnpm --filter contracts hardhat run scripts/deploy.ts --network mumbai",
-    "web:dev": "pnpm --filter web dev",
-    "web:build": "pnpm --filter web build"
+    "dev": "cd nuxt3-oe-app && npm run dev",
+    "build": "cd nuxt3-oe-app && npm run build",
+    "chain:local": "cd contracts && npm run hardhat node",
+    "contracts:compile": "cd contracts && npm run hardhat compile",
+    "contracts:test": "cd contracts && npm run hardhat test",
+    "contracts:deploy:local": "cd contracts && npm run hardhat run scripts/deploy.ts --network localhost",
+    "contracts:deploy:mumbai": "cd contracts && npm run hardhat run scripts/deploy.ts --network mumbai",
+    "web:dev": "cd nuxt3-oe-app && npm run dev",
+    "web:build": "cd nuxt3-oe-app && npm run build"
   },
   "keywords": [
     "blockchain",

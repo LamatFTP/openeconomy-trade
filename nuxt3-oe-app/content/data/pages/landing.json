@@ -1,0 +1,267 @@
+{
+  "slug": "landing",
+  "meta": {
+    "title": "OpenEconomy | Fair Exchange Protocol for Everyone",
+    "description": "Trade skills fairly without money. OpenEconomy is a decentralized time-value exchange where everyone's time has worth. Join free.",
+    "ogImage": "/og/landing.png",
+    "keywords": [
+      "time bank",
+      "skill exchange",
+      "fair trade",
+      "community exchange"
+    ]
+  },
+  "hero": {
+    "badge": "Built for humanity",
+    "headline": "Fair Exchange. For Everyone.",
+    "subheadline": "A decentralized time-value exchange protocol where everyone's time has worth. Trade skills fairly, without money changing hands.",
+    "primaryCta": {
+      "label": "Get Started Free",
+      "to": "/auth/register",
+      "variant": "primary",
+      "icon": "ph:arrow-right"
+    },
+    "secondaryCta": {
+      "label": "See How It Works",
+      "to": "/how-it-works",
+      "variant": "ghost",
+      "icon": "ph:play"
+    },
+    "socialProof": "Join 1,000+ participants exchanging fairly",
+    "visual": {
+      "type": "exchange",
+      "data": {
+        "provider": {
+          "name": "Sam",
+          "role": "Gardener",
+          "rate": 25,
+          "hours": 4
+        },
+        "receiver": { "name": "Lisa", "role": "Chef", "rate": 40, "hours": 2.5 }
+      }
+    }
+  },
+  "sections": [
+    {
+      "id": "problem",
+      "type": "personas",
+      "header": {
+        "badge": "The Problem",
+        "headline": "The economy forgot millions",
+        "subheadline": "Traditional systems exclude people without formal employment. But everyone has skills. Everyone's time has value."
+      },
+      "items": [
+        {
+          "icon": "ph:heart",
+          "name": "Maria, 58",
+          "role": "Full-time caregiver for her mother",
+          "quote": "I left my career 5 years ago. I have decades of experience, but the economy says I'm worth nothing now.",
+          "skills": [
+            "Organization",
+            "Medical knowledge",
+            "Patience",
+            "Cooking"
+          ],
+          "problem": "No income, no way to trade skills for what she needs"
+        },
+        {
+          "icon": "ph:palette",
+          "name": "David, 34",
+          "role": "Freelance musician and teacher",
+          "quote": "Between gigs, I can't pay rent. But I could teach, perform, help with events. The system doesn't connect us.",
+          "skills": ["Music", "Teaching", "Event coordination", "Creativity"],
+          "problem": "Inconsistent income, skills undervalued"
+        },
+        {
+          "icon": "ph:star",
+          "name": "James, 67",
+          "role": "Retired engineer",
+          "quote": "I have 40 years of knowledge. I don't need more money, but I'd love to help people and stay active.",
+          "skills": [
+            "Engineering",
+            "Mentoring",
+            "Problem-solving",
+            "Woodworking"
+          ],
+          "problem": "Wants to contribute, not traditional employment"
+        }
+      ],
+      "summary": "Stay-at-home parents. Artists between gigs. Retirees with wisdom to share. Immigrants rebuilding. Students learning. Their skills have real value. The traditional economy just doesn't recognize it."
+    },
+    {
+      "id": "solution",
+      "type": "features",
+      "header": {
+        "badge": "The Solution",
+        "headline": "OpenEconomy makes invisible value visible"
+      },
+      "insight": {
+        "title": "Time-Value Normalization",
+        "description": "Different skills have different market rates. But exchanges can still be FAIR.",
+        "example": {
+          "left": {
+            "label": "Sam's gardening",
+            "calculation": "4 hours × $25/hr = $100 value"
+          },
+          "right": {
+            "label": "Lisa's cooking",
+            "calculation": "2.5 hours × $40/hr = $100 value"
+          },
+          "result": "Different time. Same value. Fair exchange."
+        }
+      },
+      "items": [
+        {
+          "icon": "ph:scales",
+          "title": "Fair by Design",
+          "description": "Exchanges are calculated based on each person's self-assessed value. No exploitation. No race to the bottom."
+        },
+        {
+          "icon": "ph:users",
+          "title": "For Everyone",
+          "description": "No bank account needed. No resume required. If you have skills and time, you can participate."
+        },
+        {
+          "icon": "ph:shield-check",
+          "title": "Trust Without Middlemen",
+          "description": "Blockchain-verified exchanges. Community-built reputation. No platform taking a cut."
+        }
+      ]
+    },
+    {
+      "id": "how-it-works",
+      "type": "steps",
+      "header": {
+        "badge": "Simple Process",
+        "headline": "Four steps to fair exchange",
+        "subheadline": "Get started in minutes. Make your first exchange today."
+      },
+      "items": [
+        {
+          "number": "01",
+          "icon": "ph:sliders",
+          "title": "Set Your Value",
+          "description": "Self-assess your hourly rate based on your skills and experience. You decide what your time is worth."
+        },
+        {
+          "number": "02",
+          "icon": "ph:list-bullets",
+          "title": "List Your Skills",
+          "description": "Add what you can offer: tutoring, repairs, design, cooking. Also list what you're looking for."
+        },
+        {
+          "number": "03",
+          "icon": "ph:compass",
+          "title": "Find Matches",
+          "description": "Browse the community or let our algorithm suggest perfect matches based on complementary skills and needs."
+        },
+        {
+          "number": "04",
+          "icon": "ph:handshake",
+          "title": "Exchange Fairly",
+          "description": "Propose an exchange, agree on terms, complete the work, and confirm. Both parties rate the experience."
+        }
+      ],
+      "cta": {
+        "label": "Learn more about how it works",
+        "to": "/how-it-works",
+        "variant": "ghost",
+        "icon": "ph:arrow-right"
+      }
+    },
+    {
+      "id": "principles",
+      "type": "features",
+      "header": {
+        "badge": "Why OpenEconomy",
+        "headline": "Built Different",
+        "subheadline": "Not another gig platform. A protocol for fair exchange."
+      },
+      "items": [
+        {
+          "icon": "ph:scales",
+          "title": "Fair Value",
+          "description": "Time-normalized exchange rates ensure everyone's time is valued appropriately."
+        },
+        {
+          "icon": "ph:users-three",
+          "title": "Inclusive",
+          "description": "No barriers to entry. No bank account needed. Everyone has skills to share."
+        },
+        {
+          "icon": "ph:shield-check",
+          "title": "Trustless",
+          "description": "Blockchain verification without intermediaries. Your reputation is yours."
+        },
+        {
+          "icon": "ph:lock",
+          "title": "Private",
+          "description": "Share only what you choose. Your data stays yours. Always."
+        },
+        {
+          "icon": "ph:code",
+          "title": "Open Source",
+          "description": "Fully transparent. Community-driven development. Fork it if you want."
+        },
+        {
+          "icon": "ph:heart",
+          "title": "Non-Profit",
+          "description": "No VCs. No exit strategy. Built for people, not profit extraction."
+        }
+      ]
+    },
+    {
+      "id": "social-proof",
+      "type": "stats",
+      "header": {
+        "headline": "The community in numbers"
+      },
+      "stats": [
+        { "value": "1,234", "label": "Participants", "suffix": "+" },
+        { "value": "567", "label": "Exchanges Completed", "suffix": "+" },
+        {
+          "value": "89,000",
+          "label": "Value Traded",
+          "prefix": "$",
+          "suffix": "+"
+        },
+        { "value": "4.8", "label": "Avg Rating", "suffix": "/5" }
+      ],
+      "testimonials": [
+        {
+          "quote": "I traded Spanish lessons for help fixing my car. Neither of us had money, but we both got what we needed.",
+          "name": "Ana M.",
+          "role": "Language Teacher",
+          "location": "Austin, TX"
+        },
+        {
+          "quote": "As a retiree, I felt useless. Now I mentor young engineers and get help with my garden. I feel valuable again.",
+          "name": "Robert K.",
+          "role": "Retired Engineer",
+          "location": "Portland, OR"
+        },
+        {
+          "quote": "The traditional gig economy takes 20-30%. Here, 100% of the value goes to the people doing the work.",
+          "name": "Priya S.",
+          "role": "Graphic Designer",
+          "location": "Brooklyn, NY"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "headline": "Ready to exchange fairly?",
+    "subheadline": "Join thousands already trading skills in a new economy. No credit card. No catch. Just fair exchange.",
+    "primaryCta": {
+      "label": "Create Free Account",
+      "to": "/auth/register",
+      "variant": "primary"
+    },
+    "secondaryCta": {
+      "label": "Browse Community",
+      "to": "/discover",
+      "variant": "outline"
+    },
+    "gradient": true
+  }
+}

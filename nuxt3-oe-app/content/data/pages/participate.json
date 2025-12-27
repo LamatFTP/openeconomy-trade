@@ -1,0 +1,147 @@
+{
+  "slug": "participate",
+  "meta": {
+    "title": "Participate | OpenEconomy - Trade Skills Fairly",
+    "description": "Ready to trade skills without money? Learn how to participate in OpenEconomy: sign up, set your value, and start exchanging fairly today."
+  },
+  "hero": {
+    "badge": "Your Skills Have Value",
+    "headline": "Everyone has something to offer",
+    "subheadline": "Whether you're between jobs, caring for family, or just looking for a better way to exchange—OpenEconomy is for you.",
+    "primaryCta": { "label": "Create Free Account", "to": "/auth/register" },
+    "secondaryCta": { "label": "How It Works", "to": "/how-it-works" }
+  },
+  "sections": [
+    {
+      "id": "paths",
+      "type": "paths",
+      "header": {
+        "headline": "Who uses OpenEconomy?",
+        "subheadline": "OpenEconomy works for anyone with skills and time—especially those underserved by traditional systems."
+      },
+      "items": [
+        {
+          "icon": "🏠",
+          "title": "Stay-at-home Parents",
+          "subtitle": "Your caregiving and home skills are valuable",
+          "description": "Organization, cooking, childcare expertise, patience—skills you use every day that others need.",
+          "features": [
+            "Flexible around your schedule",
+            "No resume required",
+            "Exchange with nearby families"
+          ]
+        },
+        {
+          "icon": "🎨",
+          "title": "Creatives & Freelancers",
+          "subtitle": "Trade skills during slow periods",
+          "description": "Design, writing, music, photography—exchange your talents without racing to the bottom on price.",
+          "features": [
+            "Fair rates you control",
+            "Skill-for-skill trading",
+            "Build your portfolio"
+          ]
+        },
+        {
+          "icon": "👴",
+          "title": "Retirees & Seniors",
+          "subtitle": "Decades of experience, ready to share",
+          "description": "Mentoring, consulting, craftsmanship, wisdom—stay active and valued in your community.",
+          "features": [
+            "Share what you've learned",
+            "Stay engaged and active",
+            "Help the next generation"
+          ]
+        },
+        {
+          "icon": "🌍",
+          "title": "New Immigrants",
+          "subtitle": "Rebuild without local credentials",
+          "description": "Your skills are valid even if your papers aren't recognized here. Exchange based on ability, not paperwork.",
+          "features": [
+            "No credential gatekeeping",
+            "Global skills recognized",
+            "Build local reputation"
+          ]
+        },
+        {
+          "icon": "📚",
+          "title": "Students",
+          "subtitle": "Time-rich, cash-poor? Perfect fit.",
+          "description": "Trade tutoring, tech help, or errands for the things you need while you study.",
+          "features": [
+            "Flexible hours",
+            "Real experience",
+            "Build skills and connections"
+          ]
+        },
+        {
+          "icon": "💡",
+          "title": "Anyone with Skills",
+          "subtitle": "If you can help someone, you can participate",
+          "description": "Gardening, cooking, tech support, languages, repairs—every skill counts.",
+          "features": [
+            "Everyone welcome",
+            "No barriers to entry",
+            "Start today"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "getting-started",
+      "type": "steps",
+      "header": {
+        "badge": "Ready to Start?",
+        "headline": "Three steps to your first exchange"
+      },
+      "items": [
+        {
+          "number": "01",
+          "title": "Create Your Profile",
+          "description": "Sign up with email or wallet. Add your photo, location, and a brief bio. Takes 2 minutes."
+        },
+        {
+          "number": "02",
+          "title": "Set Your Value & Skills",
+          "description": "Choose your hourly baseline. List what you can offer and what you're looking for."
+        },
+        {
+          "number": "03",
+          "title": "Make Your First Exchange",
+          "description": "Browse the community, find a match, and propose an exchange. Most people find their first match within a week."
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "type": "faq",
+      "header": { "headline": "Common Questions for New Participants" },
+      "items": [
+        {
+          "question": "What if I don't know my hourly value?",
+          "answer": "Start with what feels fair. If you had a job, divide your salary by 2,000. If not, think about what someone would pay for your skill. You can always adjust later."
+        },
+        {
+          "question": "What if I only have one skill?",
+          "answer": "That's totally fine! Many participants specialize. As long as someone needs what you offer, you can find exchanges."
+        },
+        {
+          "question": "How much time do I need to commit?",
+          "answer": "Zero minimum. Exchange when it works for you. Some people do one exchange a month, others do several a week."
+        },
+        {
+          "question": "What if there's no one near me?",
+          "answer": "Some skills work remotely! Tutoring, consulting, design—many things can be done online. You can also help grow your local community."
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "headline": "Ready to exchange fairly?",
+    "subheadline": "Join thousands trading skills without money. Create your free account in 5 minutes.",
+    "primaryCta": { "label": "Create Free Account", "to": "/auth/register" },
+    "secondaryCta": { "label": "Browse Community First", "to": "/discover" },
+    "gradient": true
+  }
+}
