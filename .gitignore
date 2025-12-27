@@ -1,0 +1,41 @@
+# Nuxt 3 App
+nuxt3-oe-app/node_modules/
+nuxt3-oe-app/.nuxt/
+nuxt3-oe-app/.output/
+nuxt3-oe-app/dist/
+nuxt3-oe-app/.nitro/
+nuxt3-oe-app/.cache/
+
+# Environment files
+nuxt3-oe-app/.env
+nuxt3-oe-app/.env.*
+!nuxt3-oe-app/.env.example
+
+# Logs
+nuxt3-oe-app/*.log
+nuxt3-oe-app/logs/
+nuxt3-oe-app/npm-debug.log*
+nuxt3-oe-app/yarn-debug.log*
+nuxt3-oe-app/yarn-error.log*
+nuxt3-oe-app/pnpm-debug.log*
+
+# OS files
+nuxt3-oe-app/.DS_Store
+nuxt3-oe-app/Thumbs.db
+
+# IDE
+nuxt3-oe-app/.vscode/
+nuxt3-oe-app/.idea/
+nuxt3-oe-app/*.suo
+nuxt3-oe-app/*.ntvs*
+nuxt3-oe-app/*.njsproj
+nuxt3-oe-app/*.sln
+nuxt3-oe-app/*.sw?
+
+# Testing
+nuxt3-oe-app/coverage/
+nuxt3-oe-app/.nyc_output/
+
+# Temp files
+nuxt3-oe-app/*.tmp
+nuxt3-oe-app/*.temp
