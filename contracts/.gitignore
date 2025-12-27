@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+artifacts/
+cache/
+typechain-types/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+
+# Coverage
+coverage/
+coverage.json
+
+# Hardhat
+.openzeppelin/
+
+# Package manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml

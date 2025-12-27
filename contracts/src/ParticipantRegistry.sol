@@ -27,13 +27,17 @@ contract ParticipantRegistry {
     }
     
     // ============ State Variables ============
-    
+
     mapping(address => Participant) public participants;
     mapping(address => string[]) public participantSkills;
     mapping(address => mapping(address => bool)) public hasEndorsed;
-    
+
     address[] public allParticipants;
     uint256 public totalParticipants;
+
+    // Access control for credit balance updates
+    mapping(address => bool) public authorizedContracts;
+    address public owner;
     
     // ============ Events ============
     
@@ -65,8 +69,35 @@ contract ParticipantRegistry {
         int256 newBalance,
         string reason
     );
-    
+
+    event ContractAuthorized(
+        address indexed contractAddress,
+        bool authorized
+    );
+
+    event OwnershipTransferred(
+        address indexed previousOwner,
+        address indexed newOwner
+    );
+
+    // ============ Constructor ============
+
+    constructor() {
+        owner = msg.sender;
+        emit OwnershipTransferred(address(0), msg.sender);
+    }
+
     // ============ Modifiers ============
+
+    modifier onlyOwner() {
+        require(msg.sender == owner, "Only owner");
+        _;
+    }
+
+    modifier onlyAuthorized() {
+        require(authorizedContracts[msg.sender], "Not authorized");
+        _;
+    }
     
     modifier onlyRegistered() {
         require(participants[msg.sender].isActive, "Not registered");
@@ -166,25 +197,63 @@ contract ParticipantRegistry {
         emit ParticipantEndorsed(msg.sender, _participant);
     }
     
+    // ============ Access Control Management ============
+
+    /**
+     * @notice Authorize a contract to update credit balances
+     * @param _contract Address of the contract to authorize
+     * @dev Only callable by owner (typically set to governance contract later)
+     */
+    function authorizeContract(address _contract) external onlyOwner {
+        require(_contract != address(0), "Invalid address");
+        require(!authorizedContracts[_contract], "Already authorized");
+
+        authorizedContracts[_contract] = true;
+        emit ContractAuthorized(_contract, true);
+    }
+
+    /**
+     * @notice Revoke a contract's authorization to update credit balances
+     * @param _contract Address of the contract to unauthorize
+     */
+    function unauthorizeContract(address _contract) external onlyOwner {
+        require(authorizedContracts[_contract], "Not authorized");
+
+        authorizedContracts[_contract] = false;
+        emit ContractAuthorized(_contract, false);
+    }
+
+    /**
+     * @notice Transfer ownership to a new address
+     * @param _newOwner Address of the new owner
+     * @dev Can be used to transfer control to a governance contract
+     */
+    function transferOwnership(address _newOwner) external onlyOwner {
+        require(_newOwner != address(0), "Invalid address");
+        require(_newOwner != owner, "Already owner");
+
+        address previousOwner = owner;
+        owner = _newOwner;
+        emit OwnershipTransferred(previousOwner, _newOwner);
+    }
+
     // ============ Credit Balance (Called by ExchangeProtocol) ============
-    
+
     /**
      * @notice Update credit balance after exchange
      * @param _wallet Participant wallet
      * @param _delta Amount to add (can be negative)
      * @param _reason Description of the adjustment
-     * @dev Only callable by authorized contracts (ExchangeProtocol)
+     * @dev Only callable by authorized contracts (ExchangeProtocol, DisputeResolution)
      */
     function updateCreditBalance(
         address _wallet,
         int256 _delta,
         string calldata _reason
-    ) external validParticipant(_wallet) {
-        // TODO: Add access control for ExchangeProtocol only
-        
+    ) external onlyAuthorized validParticipant(_wallet) {
         int256 oldBalance = participants[_wallet].creditBalanceCents;
         participants[_wallet].creditBalanceCents += _delta;
-        
+
         emit CreditBalanceUpdated(
             _wallet,
             oldBalance,
@@ -194,20 +263,24 @@ contract ParticipantRegistry {
     }
     
     // ============ View Functions ============
-    
+
     function getParticipant(address _wallet) external view returns (Participant memory) {
         return participants[_wallet];
     }
-    
+
     function getSkills(address _wallet) external view returns (string[] memory) {
         return participantSkills[_wallet];
     }
-    
+
     function getAllParticipants() external view returns (address[] memory) {
         return allParticipants;
     }
-    
+
     function isRegistered(address _wallet) external view returns (bool) {
         return participants[_wallet].isActive;
+    }
+
+    function isAuthorized(address _contract) external view returns (bool) {
+        return authorizedContracts[_contract];
     }
 }
