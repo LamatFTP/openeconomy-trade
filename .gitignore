@@ -5,6 +5,8 @@ nuxt3-oe-app/.output/
 nuxt3-oe-app/dist/
 nuxt3-oe-app/.nitro/
 nuxt3-oe-app/.cache/
+nuxt3-oe-app/.claude/
+nuxt3-oe-app/CLAUDE.md
 
 # Environment files
 nuxt3-oe-app/.env
@@ -39,3 +41,5 @@ nuxt3-oe-app/.nyc_output/
 # Temp files
 nuxt3-oe-app/*.tmp
 nuxt3-oe-app/*.temp
+
+# claude
