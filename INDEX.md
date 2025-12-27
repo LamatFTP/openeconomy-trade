@@ -10,6 +10,7 @@
 |-------------------|-------|
 | Understand the vision | [README.md](./README.md) |
 | See the full plan | [MASTERPLAN.md](./MASTERPLAN.md) |
+| **Contribute to the project** | **[CONTRIBUTING.md](./CONTRIBUTING.md)** |
 | Understand community rules | [docs/COMMUNITY-PROTOCOL.md](./docs/COMMUNITY-PROTOCOL.md) |
 | See MVP scope | [docs/PHASE-1-MVP.md](./docs/PHASE-1-MVP.md) |
 | Review type definitions | [src/types.ts](./src/types.ts) |
@@ -25,6 +26,7 @@
 |------|---------|--------|
 | [README.md](./README.md) | Public-facing overview, quick start | ✅ Complete |
 | [MASTERPLAN.md](./MASTERPLAN.md) | Vision, entities, phase overview | ✅ Complete |
+| [CONTRIBUTING.md](./CONTRIBUTING.md) | Contribution guidelines, workflows, standards | ✅ Complete |
 
 ### Phase Specifications
 
@@ -86,6 +88,7 @@ openeconomy-trade/
 ├── 📄 INDEX.md                    # ← You are here
 ├── 📄 README.md                   # Public overview
 ├── 📄 MASTERPLAN.md               # Vision & entities
+├── 📄 CONTRIBUTING.md             # Contribution guidelines
 ├── 📄 package.json                # Root package config
 │
 ├── 📁 docs/                       # All documentation
@@ -205,7 +208,7 @@ pnpm generate         # Generate static site
 - [x] PHASE-3-BLOCKCHAIN.md
 - [ ] PHASE-4-SCALE.md
 - [ ] PHASE-5-NETWORK.md
-- [ ] CONTRIBUTING.md
+- [x] CONTRIBUTING.md
 - [ ] CODE_OF_CONDUCT.md
 
 ### Types
